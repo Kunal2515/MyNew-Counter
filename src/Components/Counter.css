@@ -1,0 +1,75 @@
+.Counter-Section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border: 1px solid;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 25px;
+}
+
+.Counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.Counter-View{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.View-Count{
+    height: 100px;
+    width: 100px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+    background-color: grey;
+    transition-duration: 0.4s;
+    color: white;
+    border-radius: 25px;
+}
+.View-Count:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+
+.Button-View{
+    display: flex;
+    gap: 40px;
+}
+
+.Increment-View{
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: blue;
+    border: blue;
+    transition-duration: 0.4s;
+    border-radius: 25px;
+}
+.Increment-View:hover{
+    background-color: #4CAF50;
+    color: white;
+
+}
+
+.Decrement-View{
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    border: red;
+    transition-duration: 0.4s;
+    border-radius: 25px;
+}
+.Decrement-View:hover{
+    background-color: #4CAF50;
+    color: white;
+}
